@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.29">
-<info created="D:20090429144355" modified="D:20260506162637" title="Hexasort" author="Linus Klocker" numberpages="yes"/>
+<info created="D:20090429144355" modified="D:20260508114940" title="Hexasort" author="Linus Klocker" numberpages="yes"/>
 <preamble>\usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb}
 \usepackage{amsthm}
@@ -27966,11 +27966,13 @@ h
 <layer name="venn-diagram-circles"/>
 <layer name="venn-diagram-text"/>
 <layer name="algorithms"/>
+<layer name="venn-diagram-constant-S"/>
 <view layers="Weak-NP" active="Weak-NP"/>
 <view layers="Weak-NP Recap-Weak-NP" active="Recap-Weak-NP"/>
 <view layers="Weak-NP Strong-NP" active="Strong-NP"/>
 <view layers="Weak-NP Strong-NP algorithms" active="algorithms"/>
-<view layers="venn-diagram-circles venn-diagram-text" active="venn-diagram-text"/>
+<view layers="venn-diagram-circles venn-diagram-text" active="venn-diagram-circles"/>
+<view layers="venn-diagram-circles venn-diagram-text venn-diagram-constant-S" active="venn-diagram-constant-S"/>
 <text layer="Weak-NP" matrix="1 0 0 1 0 -33.7292" pin="h" transformations="translations" pos="0 524" stroke="black" type="minipage" width="824" height="36.0948" depth="22.176" valign="top">\hl{Hardness} on Empty Hexasort
 \begin{itemize}
 \item weak NP-hardness on two disjoint edges
@@ -28367,95 +28369,122 @@ Weak NP-hardness describes a set of problems which are NP-hard in general, but a
 431.05 102.361 l
 </path>
 </group>
-<path layer="venn-diagram-circles" matrix="1.5 0 0 1.5 50.7579 -165.036" stroke="darkgreen" fill="darkgreen" opacity="30%" stroke-opacity="opaque">
+<path layer="venn-diagram-circles" matrix="1.5 0 0 1.5 139.093 -164.88" stroke="darkgreen" fill="darkgreen" opacity="30%" stroke-opacity="opaque">
 64 0 0 64 256 320 e
 </path>
-<path matrix="1.5 0 0 1.5 -69.2421 -165.036" stroke="blue" fill="blue" opacity="30%" stroke-opacity="opaque">
+<path matrix="1.5 0 0 1.5 19.0925 -164.88" stroke="blue" fill="blue" opacity="30%" stroke-opacity="opaque">
 64 0 0 64 256 320 e
 </path>
-<path matrix="1 0 0 1 58.7579 -5.03639" stroke="red" fill="red" opacity="30%" stroke-opacity="opaque">
+<path matrix="1 0 0 1 147.093 -4.88062" stroke="red" fill="red" opacity="30%" stroke-opacity="opaque">
 116 -8.07695 8.07695 116 316 216.077 e
 </path>
-<path stroke="red" fill="red" opacity="30%" stroke-opacity="opaque">
+<path matrix="1 0 0 1 88.3346 0.155767" stroke="red" fill="red" opacity="30%" stroke-opacity="opaque">
 88.3216 -0.927701 0.927701 88.3216 374.758 211.041 e
 </path>
-<text layer="venn-diagram-text" matrix="1 0 0 1 58.7575 -6.32886" transformations="translations" pos="224 432" stroke="blue" type="label" width="32.544" height="17.9352" depth="5.976" valign="baseline" size="small" style="math">|V|</text>
-<text matrix="1 0 0 1 202.758 -6.32886" transformations="translations" pos="224 432" stroke="darkgreen" type="label" width="32.0832" height="17.9352" depth="5.976" valign="baseline" size="small" style="math">|C|</text>
-<text matrix="1 0 0 1 154.758 -373.036" transformations="translations" pos="224 432" stroke="red" type="label" width="8.6352" height="14.7072" depth="0" valign="baseline" size="small" style="math">t</text>
-<text matrix="1 0 0 1 -85.2425 9.67114" transformations="translations" pos="352 384" stroke="orange" type="minipage" width="80" height="9.3936" depth="0" valign="top" size="tiny">const</text>
-<text matrix="1 0 0 1 106.758 9.67114" transformations="translations" pos="352 384" stroke="red" type="minipage" width="80" height="9.3936" depth="0" valign="top" size="tiny">const</text>
-<text matrix="1 0 0 1 -5.24246 -246.329" transformations="translations" pos="352 384" stroke="darkgreen" type="minipage" width="80" height="9.3936" depth="0" valign="top" size="tiny">const</text>
-<text matrix="1 0 0 1 10.7575 -274.329" transformations="translations" pos="352 384" stroke="darkgreen" type="minipage" width="80" height="11.292" depth="0" valign="top" size="tiny">poly</text>
+<text layer="venn-diagram-text" matrix="1 0 0 1 147.092 -6.17309" transformations="translations" pos="224 432" stroke="blue" type="label" width="32.544" height="17.9352" depth="5.976" valign="baseline" size="small" style="math">|V|</text>
+<text matrix="1 0 0 1 291.093 -6.17309" transformations="translations" pos="224 432" stroke="darkgreen" type="label" width="32.0832" height="17.9352" depth="5.976" valign="baseline" size="small" style="math">|C|</text>
+<text matrix="1 0 0 1 243.093 -372.88" transformations="translations" pos="224 432" stroke="red" type="label" width="8.6352" height="14.7072" depth="0" valign="baseline" size="small" style="math">t</text>
+<text matrix="1 0 0 1 3.0921 9.82691" transformations="translations" pos="352 384" stroke="orange" type="minipage" width="80" height="9.3936" depth="0" valign="top" size="tiny">const</text>
+<text matrix="1 0 0 1 195.093 9.82691" transformations="translations" pos="352 384" stroke="red" type="minipage" width="80" height="9.3936" depth="0" valign="top" size="tiny">const</text>
+<text matrix="1 0 0 1 83.0921 -246.173" transformations="translations" pos="352 384" stroke="darkgreen" type="minipage" width="80" height="9.3936" depth="0" valign="top" size="tiny">const</text>
+<text matrix="1 0 0 1 99.0921 -274.173" transformations="translations" pos="352 384" stroke="darkgreen" type="minipage" width="80" height="11.292" depth="0" valign="top" size="tiny">poly</text>
 <text layer="algorithms" matrix="1 0 0 1 0 -36.9335" pin="h" transformations="translations" pos="0 244.103" stroke="black" type="minipage" width="920" height="59.5944" depth="47.736" valign="top" size="small">\hl{Algorithms} on Hexasort
 \begin{itemize}
 \item Dynamic Programm
 \item Empty Hexasort is positive if some structural condition is met
 \item FPT for Fitting Hexasort
 \end{itemize}</text>
-<text layer="venn-diagram-text" matrix="1 0 0 1 -59.3868 -99.363" transformations="translations" pos="352 384" stroke="black" type="minipage" width="13.99" height="10.128" depth="0" valign="top" size="tiny">P</text>
-<path matrix="1 0 0 1 0 -3" stroke="black" dash="dashed">
+<text layer="venn-diagram-text" matrix="1 0 0 1 28.9478 -99.2072" transformations="translations" pos="352 384" stroke="black" type="minipage" width="13.99" height="10.128" depth="0" valign="top" size="tiny">P</text>
+<path matrix="1 0 0 1 88.3346 -2.84423" stroke="black" dash="dashed">
 290.729 282.737 m
 221.693 291.406
 155.779 254.582 c
 </path>
-<path matrix="0.43459 0.900628 -0.900628 0.43459 389.31 -74.6105" stroke="black">
+<path matrix="0.43459 0.900628 -0.900628 0.43459 477.645 -74.4547" stroke="black">
 193.238 347.735 m
 192 352 l
 196.515 353.328 l
 196.515 353.328 l
 </path>
-<path matrix="1 0 0 1 0 -3" stroke="black" dash="dashed">
+<path matrix="1 0 0 1 88.3346 -2.84423" stroke="black" dash="dashed">
 299.226 291.234 m
 332.569 315.05
 366.138 316.184 c
 </path>
-<text matrix="1 0 0 1 18.6397 -65.5666" transformations="translations" pos="352 384" stroke="black" type="minipage" width="13.99" height="10.128" depth="0" valign="top" size="tiny">P</text>
-<path matrix="-0.957394 -0.288787 0.288787 -0.957394 448.276 705.645" stroke="black">
+<text matrix="1 0 0 1 106.974 -65.4108" transformations="translations" pos="352 384" stroke="black" type="minipage" width="13.99" height="10.128" depth="0" valign="top" size="tiny">P</text>
+<path matrix="-0.957394 -0.288787 0.288787 -0.957394 536.611 705.801" stroke="black">
 193.238 347.735 m
 192 352 l
 196.515 353.328 l
 196.515 353.328 l
 </path>
-<text matrix="1 0 0 1 14.5089 -104.643" transformations="translations" pos="352 384" stroke="black" type="minipage" width="13.99" height="10.128" depth="0" valign="top" size="tiny">P</text>
-<text matrix="1 0 0 1 -5.1663 -38.6073" transformations="translations" pos="352 384" stroke="black" type="minipage" width="80" height="10.128" depth="0" valign="top" size="tiny">wNPH</text>
-<text matrix="1 0 0 1 -117.242 -22.3294" transformations="translations" pos="352 384" stroke="black" type="minipage" width="80" height="10.128" depth="0" valign="top" size="tiny">wNPH</text>
-<text matrix="1 0 0 1 126.758 -22.3294" transformations="translations" pos="352 384" stroke="black" type="minipage" width="80" height="10.128" depth="0" valign="top" size="tiny">wNPH</text>
-<path matrix="1 0 0 1 58.7579 -5.03637" stroke="black" dash="dashed">
+<text matrix="1 0 0 1 102.844 -104.487" transformations="translations" pos="352 384" stroke="black" type="minipage" width="13.99" height="10.128" depth="0" valign="top" size="tiny">P</text>
+<text matrix="1 0 0 1 83.1683 -38.4515" transformations="translations" pos="352 384" stroke="black" type="minipage" width="80" height="10.128" depth="0" valign="top" size="tiny">wNPH</text>
+<text matrix="1 0 0 1 -28.9074 -22.1736" transformations="translations" pos="352 384" stroke="black" type="minipage" width="80" height="10.128" depth="0" valign="top" size="tiny">wNPH</text>
+<text matrix="1 0 0 1 215.093 -22.1736" transformations="translations" pos="352 384" stroke="black" type="minipage" width="80" height="10.128" depth="0" valign="top" size="tiny">wNPH</text>
+<path matrix="1 0 0 1 147.093 -4.8806" stroke="black" dash="dashed">
 285.896 344.351 m
 224 336
 192 352 c
 </path>
-<path matrix="1 0 0 1 58.7579 -5.03637" stroke="black" dash="dashed">
+<path matrix="1 0 0 1 147.093 -4.8806" stroke="black" dash="dashed">
 324.649 345.844 m
 399.202 329.637
 438.983 353.211 c
 </path>
-<path matrix="1 0 0 1 58.7579 -5.03637" stroke="black">
+<path matrix="1 0 0 1 147.093 -4.8806" stroke="black">
 193.238 347.735 m
 192 352 l
 196.515 353.328 l
 196.515 353.328 l
 </path>
-<path matrix="-0.386866 -0.922136 0.922136 -0.386866 246.714 660.984" stroke="black">
+<path matrix="-0.386866 -0.922136 0.922136 -0.386866 335.049 661.14" stroke="black">
 193.238 347.735 m
 192 352 l
 196.515 353.328 l
 196.515 353.328 l
 </path>
-<text matrix="1 0 0 1 77.2247 -1.67878" transformations="translations" pos="209.686 480.019" stroke="black" type="minipage" width="219.034" height="16.6224" depth="4.632" valign="top" size="small">Fitting Hexasort</text>
-<text matrix="1 0 0 1 -193.663 -232.995" transformations="translations" pos="209.686 480.019" stroke="black" type="minipage" width="219.034" height="19.5744" depth="7.632" valign="top" size="small">$\mathcal{O}(|S| \cdot (|C|\cdot t)^{|V|})$</text>
-<text matrix="1 0 0 1 16.023 7.33231" transformations="translations" pos="0 183.743" stroke="black" type="minipage" width="162.289" height="19.5744" depth="7.632" valign="top" size="small">$O(|V|^{|S|})$</text>
-<path stroke="black" dash="dashed">
+<text matrix="1 0 0 1 165.559 -1.52301" transformations="translations" pos="209.686 480.019" stroke="black" type="minipage" width="219.034" height="16.6224" depth="4.632" valign="top" size="small">Fitting Hexasort</text>
+<text matrix="1 0 0 1 -105.328 -232.839" transformations="translations" pos="209.686 480.019" stroke="black" type="minipage" width="219.034" height="19.5744" depth="7.632" valign="top" size="small">$\mathcal{O}(|S| \cdot (|C|\cdot t)^{|V|})$</text>
+<text matrix="1 0 0 1 104.358 7.48808" transformations="translations" pos="0 183.743" stroke="black" type="minipage" width="162.289" height="19.5744" depth="7.632" valign="top" size="small">$O(|V|^{|S|})$</text>
+<path matrix="1 0 0 1 88.3346 0.155767" stroke="black" dash="dashed">
 303.309 275.986 m
 330.795 260.896
 363.718 271.436 c
 </path>
-<path matrix="-0.572616 -0.819824 0.819824 -0.572616 182.922 630.136" stroke="black">
+<path matrix="-0.572616 -0.819824 0.819824 -0.572616 271.257 630.292" stroke="black">
 193.238 347.735 m
 192 352 l
 196.515 353.328 l
 196.515 353.328 l
 </path>
+<text matrix="1 0 0 1 406.672 -232.839" transformations="translations" pos="209.686 480.019" stroke="black" type="minipage" width="219.034" height="18.696" depth="6.744" valign="top" size="small">$\mathcal{O}(f(|C|, t)\cdot |S|^2)$</text>
+<path matrix="1 0 0 1 88.3346 0.155767" stroke="black" dash="dashed">
+522.475 234.617 m
+458.758 234.964
+426.758 250.964 c
+</path>
+<path matrix="1 0 0 1 323.093 -100.881" stroke="black">
+193.238 347.735 m
+192 352 l
+196.515 353.328 l
+196.515 353.328 l
+</path>
+<text matrix="-0.236897 -0.971535 0.971535 -0.236897 216.163 693.061" transformations="translations" pos="352 384" stroke="black" type="minipage" width="13.99" height="10.128" depth="0" valign="top" size="tiny">P</text>
+<path matrix="1 0 0 1 88.3346 0.155767" stroke="black" dash="dashed">
+415.645 256.095 m
+397.451 257.311
+373.983 272.35 c
+</path>
+<path matrix="1 0 0 1 270.318 -79.4943" stroke="black">
+193.238 347.735 m
+192 352 l
+196.515 353.328 l
+196.515 353.328 l
+</path>
+<text matrix="-0.0831291 -0.996539 0.996539 -0.0831291 48.4537 428.034" transformations="translations" pos="224 432" stroke="darkgreen" type="label" width="11.292" height="16.6032" depth="0" valign="baseline" size="small" style="math">?</text>
+<text matrix="-0.0831291 -0.996539 0.996539 -0.0831291 146.309 451.274" transformations="translations" pos="224 432" stroke="darkgreen" type="label" width="11.292" height="16.6032" depth="0" valign="baseline" size="small" style="math">?</text>
+<text matrix="-0.0831291 -0.996539 0.996539 -0.0831291 119.154 533.118" transformations="translations" pos="224 432" stroke="darkgreen" type="label" width="11.292" height="16.6032" depth="0" valign="baseline" size="small" style="math">?</text>
 </page>
 <page title="Weak NP-hardness via Partition">
 <layer name="background"/>
