@@ -1,0 +1,26 @@
+name: Compile Ipe to PDF
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install LaTeX and Ipe
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ipe texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+
+      - name: Compile Ipe to PDF
+        run: |
+          # Ersetze 'Hexasort-presentation.ipe' durch deinen Dateinamen
+          ipetoipe -pdf Hexasort-presentation.ipe Hexasort-presentation.pdf
+
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Hexasort-PDF
+          path: Hexasort-presentation.pdf
