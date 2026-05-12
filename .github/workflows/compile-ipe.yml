@@ -16,8 +16,12 @@ jobs:
 
       - name: Compile Ipe to PDF
         run: |
-          # Ersetze 'Hexasort-presentation.ipe' durch deinen Dateinamen
           ipetoipe -pdf Hexasort-presentation.ipe Hexasort-presentation.pdf
+
+      - name: Show LaTeX log on failure
+        if: failure()
+        run: |
+          find . -name "*.log" -exec echo "===== {} =====" \; -exec cat {} \;
 
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4

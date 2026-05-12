@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.29">
-<info created="D:20090429144355" modified="D:20260508114940" title="Hexasort" author="Linus Klocker" numberpages="yes"/>
+<info created="D:20090429144355" modified="D:20260508141012" title="Hexasort" author="Linus Klocker" numberpages="yes"/>
 <preamble>\usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb}
 \usepackage{amsthm}
@@ -27972,7 +27972,7 @@ h
 <view layers="Weak-NP Strong-NP" active="Strong-NP"/>
 <view layers="Weak-NP Strong-NP algorithms" active="algorithms"/>
 <view layers="venn-diagram-circles venn-diagram-text" active="venn-diagram-circles"/>
-<view layers="venn-diagram-circles venn-diagram-text venn-diagram-constant-S" active="venn-diagram-constant-S"/>
+<view layers="venn-diagram-circles venn-diagram-text" active="venn-diagram-text"/>
 <text layer="Weak-NP" matrix="1 0 0 1 0 -33.7292" pin="h" transformations="translations" pos="0 524" stroke="black" type="minipage" width="824" height="36.0948" depth="22.176" valign="top">\hl{Hardness} on Empty Hexasort
 \begin{itemize}
 \item weak NP-hardness on two disjoint edges
@@ -28447,12 +28447,12 @@ Weak NP-hardness describes a set of problems which are NP-hard in general, but a
 <text matrix="1 0 0 1 165.559 -1.52301" transformations="translations" pos="209.686 480.019" stroke="black" type="minipage" width="219.034" height="16.6224" depth="4.632" valign="top" size="small">Fitting Hexasort</text>
 <text matrix="1 0 0 1 -105.328 -232.839" transformations="translations" pos="209.686 480.019" stroke="black" type="minipage" width="219.034" height="19.5744" depth="7.632" valign="top" size="small">$\mathcal{O}(|S| \cdot (|C|\cdot t)^{|V|})$</text>
 <text matrix="1 0 0 1 104.358 7.48808" transformations="translations" pos="0 183.743" stroke="black" type="minipage" width="162.289" height="19.5744" depth="7.632" valign="top" size="small">$O(|V|^{|S|})$</text>
-<path matrix="1 0 0 1 88.3346 0.155767" stroke="black" dash="dashed">
-303.309 275.986 m
-330.795 260.896
-363.718 271.436 c
+<path stroke="black" dash="dashed">
+384.065 274.319 m
+389.925 256.337
+407.727 244.806 c
 </path>
-<path matrix="-0.572616 -0.819824 0.819824 -0.572616 271.257 630.292" stroke="black">
+<path matrix="-0.611473 -0.791266 0.791266 -0.611473 291.198 639.572" stroke="black">
 193.238 347.735 m
 192 352 l
 196.515 353.328 l
@@ -28464,7 +28464,7 @@ Weak NP-hardness describes a set of problems which are NP-hard in general, but a
 458.758 234.964
 426.758 250.964 c
 </path>
-<path matrix="1 0 0 1 323.093 -100.881" stroke="black">
+<path matrix="-0.786548 -0.61753 0.61753 -0.786548 545.199 630.29" stroke="black">
 193.238 347.735 m
 192 352 l
 196.515 353.328 l
@@ -28485,6 +28485,32 @@ Weak NP-hardness describes a set of problems which are NP-hard in general, but a
 <text matrix="-0.0831291 -0.996539 0.996539 -0.0831291 48.4537 428.034" transformations="translations" pos="224 432" stroke="darkgreen" type="label" width="11.292" height="16.6032" depth="0" valign="baseline" size="small" style="math">?</text>
 <text matrix="-0.0831291 -0.996539 0.996539 -0.0831291 146.309 451.274" transformations="translations" pos="224 432" stroke="darkgreen" type="label" width="11.292" height="16.6032" depth="0" valign="baseline" size="small" style="math">?</text>
 <text matrix="-0.0831291 -0.996539 0.996539 -0.0831291 119.154 533.118" transformations="translations" pos="224 432" stroke="darkgreen" type="label" width="11.292" height="16.6032" depth="0" valign="baseline" size="small" style="math">?</text>
+<path layer="venn-diagram-constant-S" matrix="1 0 0 1 -14 13" stroke="softblack" fill="gray" opacity="75%" stroke-opacity="opaque">
+671.263 134.259
+460.874 192.36
+386.871 362.995
+498.793 277.983
+564.234 221.105
+566.68 221.105 u
+</path>
+<text layer="venn-diagram-text" matrix="1 0 0 1 58.3153 -134.664" transformations="translations" pos="352 384" stroke="black" type="minipage" width="13.99" height="10.128" depth="0" valign="top" size="tiny">P</text>
+<path stroke="black" dash="dashed">
+419.684 244.17 m
+429.212 259.192
+449.952 271.254 c
+</path>
+<path matrix="-0.999484 0.0321312 -0.0321312 -0.999484 609.412 591.719" stroke="black">
+193.238 347.735 m
+192 352 l
+196.515 353.328 l
+196.515 353.328 l
+</path>
+<path matrix="-0.611473 -0.791266 0.791266 -0.611473 291.198 639.572" stroke="black">
+193.238 347.735 m
+192 352 l
+196.515 353.328 l
+196.515 353.328 l
+</path>
 </page>
 <page title="Weak NP-hardness via Partition">
 <layer name="background"/>

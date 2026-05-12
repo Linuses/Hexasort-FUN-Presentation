@@ -1,0 +1,38 @@
+# Build artifacts
+*.pdf
+*.log
+*.aux
+*.out
+*.nav
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Ipe autosave / temp
+*.ipe.autosave.ipe
+ipetemp.tex
+ipetemp.pdf
+ipetemp.log
+ipetemp.aux
+ipetemp.out
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
+
+# Local/private working material
+feedback/
+practice-audios/
+tips/
+
+# Optional extra working files
+overview-todo.png
+kill-your-darlings.ipe
+1st-Hexasort-presentation.pdf
+2nd-Hexasort-presentation.pdf
+3rd-Hexasort-presentation.pdf
