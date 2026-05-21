@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.29">
-<info created="D:20090429144355" modified="D:20260521104756" title="Hexasort" author="Linus Klocker" numberpages="yes"/>
+<info created="D:20090429144355" modified="D:20260521104806" title="Hexasort" author="Linus Klocker" numberpages="yes"/>
 <preamble>\usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb}
 \usepackage{amsthm}
@@ -26813,7 +26813,6 @@ h
 </path>
 </group>
 <text matrix="1 0 0 1 -213 -197.176" pos="213 427" stroke="ac-lightblue" type="label" width="597.494" height="16.6224" depth="4.632" valign="bottom" size="small">13th International Conference on Fun with Algorithms 2026</text>
-<text matrix="1 0 0 1 -213 -131" pos="213 427" stroke="black" type="label" width="158.539" height="19.3704" depth="0" valign="baseline">Linus Klocker</text>
 <path stroke="black">
 0.49523 293.801 m
 158.137 293.801 l
@@ -28357,14 +28356,16 @@ h
 16 0 0 16 320 640 e
 </path>
 </group>
-<path matrix="1.6 0 0 1.6 -364.769 -1147.68" fill="green" stroke-opacity="75%">
+<path matrix="1.6 0 0 1.6 -246.927 -1147.68" fill="gold" stroke-opacity="75%" tiling="falling">
 4 0 0 4 288 736 e
 </path>
-<path matrix="1.6 0 0 1.6 -305.848 -1147.68" fill="blue" stroke-opacity="75%">
-4 0 0 4 288 736 e
+<path matrix="2 0 0 2 -383.984 -1474.22" fill="darkgreen">
+243.303 751.972 m
+-3.30341 0 0 -3.30341 240 752 236.697 751.972 a
 </path>
-<path matrix="1.6 0 0 1.6 -246.927 -1147.68" fill="gold" stroke-opacity="75%">
-4 0 0 4 288 736 e
+<path matrix="2 0 0 2 -453.047 -1410.08" fill="blue">
+300.697 720.028 m
+3.30341 0 0 3.30341 304 720 307.303 720.028 a
 </path>
 </page>
 <page title="Results">
@@ -31650,9 +31651,9 @@ h
 <path matrix="1.6 0 0 1.6 447.2 -897.9" fill="darkred" stroke-opacity="75%" tiling="falling">
 4 0 0 4 288 736 e
 </path>
-<text matrix="0.5 0 0 0.5 53 -114.9" transformations="translations" pos="256 736" stroke="black" type="label" width="21.9336" height="19.464" depth="0" valign="baseline" size="small" style="math">s^1</text>
-<text matrix="0.5 0 0 0.5 373 -114.9" transformations="translations" pos="256 736" stroke="black" type="label" width="21.9336" height="19.464" depth="0" valign="baseline" style="math">s^1</text>
-<text matrix="0.5 0 0 0.5 693 -114.9" transformations="translations" pos="256 736" stroke="black" type="label" width="21.9336" height="19.464" depth="0" valign="baseline" size="small" style="math">s^1</text>
+<text matrix="0.5 0 0 0.5 53 -114.9" transformations="translations" pos="256 736" stroke="black" type="label" width="25.5892" height="22.708" depth="0" valign="baseline" size="small" style="math">s^1</text>
+<text matrix="0.5 0 0 0.5 373 -114.9" transformations="translations" pos="256 736" stroke="black" type="label" width="25.5892" height="22.708" depth="0" valign="baseline" style="math">s^1</text>
+<text matrix="0.5 0 0 0.5 693 -114.9" transformations="translations" pos="256 736" stroke="black" type="label" width="25.5892" height="22.708" depth="0" valign="baseline" size="small" style="math">s^1</text>
 <group matrix="2 0 0 2 236 -1224.3">
 <path matrix="0.8 0 0 0.8 -140.741 134.756" fill="turquoise">
 295.984 796 m
@@ -32010,9 +32011,9 @@ h
 <path matrix="1.6 0 0 1.6 447.2 -709.772" fill="darkred" stroke-opacity="75%" tiling="falling">
 4 0 0 4 288 736 e
 </path>
-<text matrix="0.5 0 0 0.5 53 73.2285" transformations="translations" pos="256 736" stroke="black" type="label" width="21.9336" height="19.464" depth="0" valign="baseline" size="small" style="math">s^1</text>
-<text matrix="0.5 0 0 0.5 373 73.2285" transformations="translations" pos="256 736" stroke="black" type="label" width="21.9336" height="19.464" depth="0" valign="baseline" style="math">s^1</text>
-<text matrix="0.5 0 0 0.5 693 73.2285" transformations="translations" pos="256 736" stroke="black" type="label" width="21.9336" height="19.464" depth="0" valign="baseline" size="small" style="math">s^1</text>
+<text matrix="0.5 0 0 0.5 53 73.2285" transformations="translations" pos="256 736" stroke="black" type="label" width="25.5892" height="22.708" depth="0" valign="baseline" size="small" style="math">s^1</text>
+<text matrix="0.5 0 0 0.5 373 73.2285" transformations="translations" pos="256 736" stroke="black" type="label" width="25.5892" height="22.708" depth="0" valign="baseline" style="math">s^1</text>
+<text matrix="0.5 0 0 0.5 693 73.2285" transformations="translations" pos="256 736" stroke="black" type="label" width="25.5892" height="22.708" depth="0" valign="baseline" size="small" style="math">s^1</text>
 <group matrix="2 0 0 2 236 -1036.17">
 <path matrix="0.8 0 0 0.8 -140.741 134.756" fill="turquoise">
 295.984 796 m
